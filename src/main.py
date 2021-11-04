@@ -2,9 +2,17 @@
 # import src.Rectangle
 import src
 # from src import *
-s = src.Shape.shape("red")
-print(s)
-
 r = src.Rectangle.Rectangle("green", 5, 3)
+s = src.Square.Square("blue", 5)
+
 print(r.color)
+print(r.area())
+print(r.perimeter())
 print(r)
+
+print("-"*50)
+
+print(s.color)
+print(s.area())
+print(s.perimeter())
+print(s)
