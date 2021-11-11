@@ -7,6 +7,13 @@ class shape(ABC):
     def __str__(self):
         return f"{self.__class__.__name__}'s color is {self.color}"
 
+    def __bool__(self):
+        return 2 > 5
+
+    @abstractmethod
+    def __abs__(self):
+        pass
+
     @abstractmethod
     def area(self):
         pass

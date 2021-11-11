@@ -1,3 +1,4 @@
+# import src.Shape
 import src.Shape
 
 class Rectangle(src.Shape.shape):
@@ -11,3 +12,6 @@ class Rectangle(src.Shape.shape):
 
     def perimeter(self):
         return 2*self.height + 2*self.width
+
+    def __abs__(self):
+        return (self.width ** 2 + self.height **2) ** 0.5
