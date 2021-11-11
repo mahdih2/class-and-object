@@ -5,6 +5,7 @@ import src
 r = src.Rectangle.Rectangle("green", 5, 3)
 s = src.Square.Square("blue", 5)
 c = src.Circle.circle("red", 5)
+
 my_list = [r, s, c]
 
 for i in my_list:
@@ -15,19 +16,3 @@ for i in my_list:
     print(abs(i))
     print(i)
     print("-"*50)
-
-# print(s.color)
-# print(s.area())
-# print(s.perimeter())
-# print(bool(s))
-# print(abs(s))
-# print(s)
-
-# print("-"*50)
-
-# print(c.color)
-# print(c.area())
-# print(c.perimeter())
-# print(bool(c))
-# print(abs(c))
-# print(c)
